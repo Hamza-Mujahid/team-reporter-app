@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import { DatePicker } from 'antd';
+import { Layout } from 'antd';
+
+import Myhome from './Components/menu/home';
 
 function App() {
   return (
     <div className="App">
-     
+    <Myhome />
     </div>
   );
 }
